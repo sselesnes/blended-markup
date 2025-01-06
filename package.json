@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "GoIT-Blended-Markup",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/Vanilla-01/",
+    "build": "vite build --base=/blended-markup/",
     "preview": "vite preview"
   },
   "devDependencies": {
