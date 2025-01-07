@@ -1,3 +1,64 @@
 .hero {
-  background-color: #89efef;
+  width: 320px;
+  margin: 0 auto;
+  height: auto;
+  color: #fff;
+}
+
+.hero-subtitle {
+  text-align: center;
+}
+
+.hero-container {
+  padding-top: 120px;
+  height: 533px; /* 553px minus header padding-top 20px*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../img/header-background/header_background_mobile@1x.jpg);
+
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    min-width: 768px;
+  }
+  .hero-container {
+    height: 1007px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/header-background/header_background_tablet@1x.jpg);
+
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .hero {
+    min-width: 1360px;
+  }
+  .hero-container {
+    height: 749px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/header-background/header_background_desktop@1x.jpg);
+
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
