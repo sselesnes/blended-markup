@@ -1,6 +1,6 @@
-.container {
+.callback-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 .callback-picture-conatiner {
@@ -9,7 +9,7 @@
 }
 
 .callback-form-container {
-  width: 260px;
+  /* width: 260px; */
   height: auto;
   background-color: #f4f4f4;
   padding: 26px 30px 30px;
@@ -57,7 +57,7 @@
 /* ===========TAB================ */
 
 @media screen and (min-width: 768px) {
-  .container {
+  .callback-container {
     max-width: 768px;
     flex-direction: row;
   }
@@ -66,7 +66,7 @@
   }
 
   .callback-form-container {
-    width: 324px;
+    /* width: 324px; */
   }
   .callback-form-paragraph {
     width: 305px;
@@ -85,7 +85,7 @@
 /* ===========DESKTOP================ */
 
 @media screen and (min-width: 1360px) {
-  .container {
+  .callback-container {
     max-width: 1360px;
   }
 
@@ -94,7 +94,7 @@
   }
 
   .callback-form-container {
-    width: 620px;
+    /* width: 620px; */
     padding: 78px 30px 82px;
   }
   .form-user-input {
