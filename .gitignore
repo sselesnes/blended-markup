@@ -25,6 +25,7 @@ dist-ssr
 
 # files
 /*
-!/src/img/cases-section
-!/src/css/cases.css
-!/src/partial/cases.html
+!/src
+/src/*
+!/src/css/
+
